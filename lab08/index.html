@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Div Container</title>
+	<style>
+		/* * {
+			margin: 0;
+		} */
+		.main-wrapper {
+			background-color: antiquewhite;
+			padding: 8px;
+			display: flex;
+			justify-content: space-evenly;
+			gap: 12px;
+		}
+		.card {
+			background-color: aqua;
+			width: 250px;
+			text-align: center;
+			padding-bottom: 8px;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			color: deeppink;
+			border-radius: 8px;
+			overflow: hidden;
+			margin-block: 8px;
+		}
+	 	.card img {
+			width: 100%;
+			/* border-radius: 8px 8px 0 0; */
+		}
+		.pic-title p {
+			/* background-color: lime; */
+			margin-top: -10px;
+		}
+		.pic-title h4 {
+			border: 1px solid silver;
+			width: 50%;
+			margin-inline: auto;
+			padding-block : 4px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Container - item</h1>
+	<hr>
+	<div class="main-wrapper">
+		<div class="card">
+			<img src="https://picsum.photos/500" alt="sample-pic">
+			<div class="pic-title">
+				<h4>Nice Picture</h4>
+				<p>a very wonderful picture</p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="https://picsum.photos/500" alt="sample-pic">
+			<div class="pic-title">
+				<h4>Nice Picture</h4>
+				<p>a very wonderful picture</p>
+			</div>
+		</div>
+		<div class="card">
+			<img src="https://picsum.photos/500" alt="sample-pic">
+			<div class="pic-title">
+				<h4>Nice Picture</h4>
+				<p>a very wonderful picture</p>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>

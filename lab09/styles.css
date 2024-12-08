@@ -1,0 +1,51 @@
+body {
+    font-family: "Noto Serif Thai", serif;
+}
+
+
+header {
+    height: 70px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    font-size: 42px;
+    color: rgb(255, 200, 127)
+}
+
+.nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+h2 {
+    text-align: right;
+    background-color: aqua;
+    width: 50%;
+    text-decoration: underline violet dashed 5px;
+    text-transform: capitalize;
+    text-shadow: 4px 4px 4px silver;
+}
+
+p {
+    text-indent: 20px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    word-spacing: 10px;
+
+}
